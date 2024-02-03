@@ -1,4 +1,3 @@
-// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -9,7 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form validation
 function validateForm() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
